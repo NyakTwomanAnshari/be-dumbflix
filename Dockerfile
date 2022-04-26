@@ -9,7 +9,6 @@ RUN npm install serve
 RUN npm install pg --save
 RUN npm install -g sequelize-cli
 RUN npm build
-RUN sequelize-cli db:migrate --env production
 
 EXPOSE 5000
 CMD ["node", "server.js"]
