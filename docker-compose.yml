@@ -2,8 +2,8 @@ version: '3'
 services:
   backend1:
     build: .
-    image: bac:1.0
-    container_name: bac1
+    image: dumbflix-be1:1.0
+    container_name: backend1
     stdin_open: true
     ports:
-      - 5000:5000
+      - 5555:5000
