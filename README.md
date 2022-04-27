@@ -1,3 +1,4 @@
+Jenkins
 How to setup database :
 - Setup database with sequelize
 - Import database dumbflix.sql
